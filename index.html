@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio // Júlia Reis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/stylesheets/css/style.css">
+<link
+      rel="shortcut icon"
+      href="./src/images/foto-rou.png"
+      type="image"
+    />
+</head>
+<body>
+
+ <header>
+  <div class="logo">JR</div>
+
+  <nav>
+    <!-- Menu mobile -->
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <ul class="menu">
+      <li><a href="./index.html">Início</a></li>
+      <li><a href="./src/pages/sobremim.html">Sobre mim</a></li>
+      <li><a href="./src/pages/habilidades.html">Habilidades</a></li>
+      <li><a href="./src/pages/projetos.html">Projetos</a></li>
+      <li><a href="./src/pages/experiencia.html">Experiências</a></li>
+      <li><a href="./src/pages/contato.html">Contato</a></li>  
+    </ul>
+  </nav>
+</header>
+
+
+  <div class="wrapper topDelaySmallReveal">
+    <div class="center-container rightDelayMediumReveal">
+<h1 class="name topDelayMediumReveal">
+  Júlia Reis
+  <img src="./src/images/icons8-código-80.svg" alt="Ícone" class="iconH1">
+</h1>
+    <h2 class="titulo rightDelayMediumReveal">
+Sou <strong>estudante de Sistemas de Informação há 2 anos</strong>, apaixonada por tecnologia desde criança.
+<strong>Desenvolvo soluções full-stack com experiência em Angular, TypeScript, JavaScript, HTML, CSS, Python e Banco de Dados Relacionais</strong>. Atualmente, <strong>buscando oportunidade para aplicar meus conhecimentos e conquistar meu emprego na área de programação</strong>.
+    </h2>
+    <div class="icons-index leftDelayMediumReveal">
+  <a href="./src/pages/sobremim.html"><button class="sobre-button"><ion-icon name="chevron-down-outline"></ion-icon>Quem é Júlia?</button></a>
+  <div class="line"><hr></div>
+  <div class="social-buttons">
+    <button><a href="https://www.linkedin.com/in/jjuliafreis" target="_blank"><ion-icon width="40px" height="40px" name="logo-linkedin"></ion-icon></a>
+</button>
+    <button><a href="https://www.github.com/jjuliafreis" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+</button>
+  </div>
+</div>
+<div class="pag-sequence bottomDelayMediumReveal">Página 1 de 6 <br><a href="./src/pages/sobremim.html">avançar para próxima página <ion-icon name="arrow-forward-circle-outline"></ion-icon></a></div>
+  </div></div>
+<footer class="comeco">
+  <a href="https://www.linkedin.com/in/jjuliafreis" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+  <a href="https://www.github.com/jjuliafreis" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+  <a href="mailto:jubsr4199@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a>
+  <a href="https://www.instagram.com/juliafreis1" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+</footer>
+  <footer class="final"><div><strong>Confira as outras páginas:</strong> </div> <br>
+  <div class="pags-footer"><div><a href="./index.html">Início</a> </div>
+  <div><a href="./src/pages/sobremim.html">Sobre mim</a> </div>
+  <div><a href="./src/pages/habilidades.html">Habilidades</a> </div>
+  <div><a href="./src/pages/projetos.html">Projetos</a> </div>
+  <div><a href="./src/pages/experiencia.html">Experiências</a> </div>
+  <div><a href="./src/pages/contato.html">Contato</a></div>
+</div>
+<br>Feito com <ion-icon name="heart"></ion-icon> por <a href="https://www.linkedin.com/in/jjuliafreis" target="_blank">@jjuliafreis1</a>.</footer>
+</body>
+<script>const links = document.querySelectorAll("nav ul li a");
+const currentPath = window.location.pathname.split("/").pop();
+
+links.forEach(link => {
+  if (link.getAttribute("href").includes(currentPath)) {
+    link.classList.add("active");
+  }
+});
+
+
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+<script type="module" src="./src/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</html>

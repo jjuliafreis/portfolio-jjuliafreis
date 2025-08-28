@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio // Júlia Reis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/css/style.css">
+<link
+      rel="shortcut icon"
+      href="../images/foto-rou.png"
+      type="image"
+    />
+</head>
+<body>
+
+  <header>
+    <div class="logo">JR</div>
+    <nav>
+      <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="../../index.html">Início</a></li>
+        <li><a href="./sobremim.html">Sobre mim</a></li>
+        <li><a href="./habilidades.html">Habilidades</a></li>
+        <li><a href="./projetos.html">Projetos</a></li>
+        <li><a href="./experiencia.html">Experiências</a></li>
+        <li><a href="./contato.html">Contato</a></li>  
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper topDelaySmallReveal">
+    <div class="center-container topDelaySmallReveal">
+<div class="sobre-mim-container">
+  <h1 class="name">Sobre mim</h1>
+
+  <div class="linha-texto-imagem">
+    <div class="sobre-mim-texto">
+      <p>
+        <strong>Desde cedo, a tecnologia sempre despertou minha curiosidade</strong>. Começou com os jogos online, que não eram só diversão, mas também <strong>um jeito de explorar como as coisas funcionavam por trás das telas</strong>. <br><br>Foi aí que percebi: eu queria entender, criar e transformar ideias em sistemas de verdade.
+        <br><br>
+        Hoje, com 19 anos, sou <strong>estudante de Sistemas de Informação</strong> e sigo cada vez mais apaixonada por esse universo.
+      </p>
+    </div>
+
+    <div class="sobre-mim-imagem rightDelaySmallReveal">
+      <img width="250px" src="../images/PHOTO-2025-08-25-13-14-28.jpg" alt="Foto Júlia">
+    </div>
+  </div>
+
+  <!-- Botão fora do texto escondido -->
+  <div id="botao-expandir-container">
+    <button class="sobre-button leftDelaySmallReveal" onclick="expandirTexto()">
+      <p><ion-icon name="cafe-outline"></ion-icon>Dê um clique a mais e continue lendo</p>
+    </button>
+  </div>
+
+  <!-- Texto escondido -->
+  <div id="texto-habilidades" class="colapsado">
+    <p>
+      Já tive experiências profissionais fora da área, como <strong>assistente administrativa na Usina Uberaba e na Prefeitura de Nova Ponte</strong>, e essas vivências me ajudaram a desenvolver organização, responsabilidade e olhar analítico — <strong>qualidades que levo comigo também para a tecnologia</strong>.
+      <br><br>
+      No lado técnico, mergulhei de cabeça em ferramentas e linguagens que me fazem vibrar: <strong>Angular, TypeScript, JavaScript, HTML, CSS, Python e bancos de dados relacionais</strong>. Gosto de construir soluções que realmente fazem sentido e, ao mesmo tempo, aprender continuamente coisas novas.
+      <br><br>
+      E quando não estou programando? <strong>Muito provavelmente estou em algum jogo online, porque além de hobby, eles foram parte do que me trouxe até aqui</strong>.
+      <br><br>
+      <strong>Sou uma futura desenvolvedora em formação</strong>, com vontade de colocar a mão na massa, colaborar em projetos reais e crescer junto com equipes que compartilhem essa mesma paixão pela tecnologia.
+    </p>
+    <br>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <!-- final -->
+<div class="pag-sequence bottomDelayMediumReveal">Página 2 de 6 <br> <a href="../../index.html"><ion-icon name="arrow-back-circle-outline"></ion-icon> retornar</a> &nbsp; | &nbsp; <a href="./habilidades.html">avançar <ion-icon name="arrow-forward-circle-outline"></ion-icon></a></div>  
+</div>
+</div>
+  <footer class="comeco">
+  <a href="https://www.linkedin.com/in/jjuliafreis" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+  <a href="https://www.github.com/jjuliafreis" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+  <a href="mailto:jubsr4199@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a>
+  <a href="https://www.instagram.com/juliafreis1" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+</footer>
+  <footer class="final"><div><strong>Confira as outras páginas:</strong> </div> <br>
+  <div class="pags-footer"><div><a href="../../index.html">Início</a> </div>
+  <div><a href="./sobremim.html">Sobre mim</a> </div>
+  <div><a href="./habilidades.html">Habilidades</a> </div>
+  <div><a href="./projetos.html">Projetos</a> </div>
+  <div><a href="./experiencia.html">Experiências</a> </div>
+  <div><a href="./contato.html">Contato</a></div>
+</div>
+<br>Feito com <ion-icon name="heart"></ion-icon> por <a href="https://www.linkedin.com/in/jjuliafreis" target="_blank">@jjuliafreis1</a>.</footer>
+</body><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>function expandirTexto() {
+  const texto = document.getElementById("texto-habilidades");
+  const botaoContainer = document.getElementById("botao-expandir-container");
+
+  // Esconde o botão
+  botaoContainer.style.display = "none";
+
+  // Calcula a altura real do conteúdo
+  const alturaConteudo = texto.scrollHeight;
+
+  // Aplica altura dinâmica para animação suave
+  texto.style.maxHeight = alturaConteudo + "px";
+  texto.style.opacity = 1;
+
+  // Opcional: rola suavemente até o final do texto
+  setTimeout(() => {
+    texto.scrollIntoView({ behavior: "smooth", block: "end" });
+  }, 100);
+}
+
+
+
+
+</script>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+<script type="module" src="../scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</html>
